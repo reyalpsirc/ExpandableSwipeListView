@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/cristianosantos/AStudio/SocialCoaster-Android/SocialCoaster/swipelistview/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/cristianosantos/AStudio/SocialCoaster-Android/SocialCoaster/swipelistview/src/debug/assets" />
+    </dataSet>
+
+</merger>

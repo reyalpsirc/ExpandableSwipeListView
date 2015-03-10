@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/cristianosantos/AStudio/SocialCoaster-Android/SocialCoaster/swipelistview/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ExpandableSwipeListView">
+        <attr name="swipeOpenOnLongPress" />
+        <attr name="swipeAnimationTime" />
+        <attr name="swipeOffsetLeft" />
+        <attr name="swipeOffsetRight" />
+        <attr name="swipeCloseAllItemsWhenMoveList" />
+        <attr name="swipeFrontView" />
+        <attr name="swipeBackView" />
+        <attr name="swipeGroupView" format="reference" />
+        <attr name="swipeMode" />
+        <attr name="swipeActionLeft" />
+        <attr name="swipeActionRight" />
+        <attr name="swipeDrawableChecked" />
+        <attr name="swipeDrawableUnchecked" />
+    </declare-styleable>
+    <declare-styleable name="SwipeListView">
+        <attr name="swipeOpenOnLongPress" format="boolean" />
+        <attr name="swipeAnimationTime" format="integer" />
+        <attr name="swipeOffsetLeft" format="dimension" />
+        <attr name="swipeOffsetRight" format="dimension" />
+        <attr name="swipeCloseAllItemsWhenMoveList" format="boolean" />
+        <attr name="swipeFrontView" format="reference" />
+        <attr name="swipeBackView" format="reference" />
+        <attr name="swipeMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="both" value="1" />
+            <enum name="right" value="2" />
+            <enum name="left" value="3" />
+        </attr>
+        <attr name="swipeActionLeft" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+            <enum name="choice" value="2" />
+        </attr>
+        <attr name="swipeActionRight" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+            <enum name="choice" value="2" />
+        </attr>
+        <attr name="swipeDrawableChecked" format="reference" />
+        <attr name="swipeDrawableUnchecked" format="reference" />
+    </declare-styleable>
+
+</resources>
